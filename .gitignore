@@ -167,3 +167,12 @@ pnnx*
 
 # calibration image
 calibration_*.npy
+
+# compressed
+*.zip
+
+# precompiled models    
+*.pt
+
+# extracted datasets
+#datasets/
