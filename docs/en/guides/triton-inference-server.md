@@ -1,7 +1,7 @@
 ---
 comments: true
-description: A step-by-step guide on integrating Ultralytics YOLOv8 with Triton Inference Server for scalable and high-performance deep learning inference deployments.
-keywords: YOLOv8, Triton Inference Server, ONNX, Deep Learning Deployment, Scalable Inference, Ultralytics, NVIDIA, Object Detection, Cloud Inference
+description: Learn how to integrate Ultralytics YOLOv8 with NVIDIA Triton Inference Server for scalable, high-performance AI model deployment.
+keywords: Triton Inference Server, YOLOv8, Ultralytics, NVIDIA, deep learning, AI model deployment, ONNX, scalable inference
 ---
 
 # Triton Inference Server with Ultralytics YOLOv8
@@ -126,7 +126,7 @@ Then run inference using the Triton Server model:
 from ultralytics import YOLO
 
 # Load the Triton Server model
-model = YOLO(f"http://localhost:8000/yolo", task="detect")
+model = YOLO("http://localhost:8000/yolo", task="detect")
 
 # Run inference on the server
 results = model("path/to/image.jpg")
