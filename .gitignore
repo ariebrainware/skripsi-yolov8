@@ -172,7 +172,10 @@ calibration_*.npy
 *.zip
 
 # precompiled models    
-*.pt
+.pt
 
 # extracted datasets
 #datasets/
+
+# temporary files from Microsoft Word
+~$*.docx
