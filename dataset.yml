@@ -1,7 +1,10 @@
 path: ./  # dataset root dir
-train: datasets/mydataset/images/train
-val: datasets/mydataset/images/validate
-test: datasets/mydataset/images/test
+# train: datasets/mydataset/images/train
+# val: datasets/mydataset/images/validate
+# test: datasets/mydataset/images/test
+train: images
+val: images
+test: images
 
 # Classes
 nc: 2  # number of classes
